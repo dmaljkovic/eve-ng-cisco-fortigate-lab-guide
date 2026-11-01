@@ -1,0 +1,41 @@
+# Vendor images and lab binaries - never commit these
+*.qcow2
+*.qcow
+*.img
+*.image
+*.bin
+*.iso
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+
+# EVE-NG lab files can reference proprietary images
+*.unl
+
+# Archives and packet captures
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.pcap
+*.pcapng
+
+# Secrets and credentials
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.crt
+*.pfx
+*password*
+*secret*
+iourc
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
