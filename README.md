@@ -121,20 +121,6 @@ See [docs/03-image-inventory.md](docs/03-image-inventory.md) for details.
     └── linux/
 ```
 
-## Reference environment
-
-This guide was written against the following reference setup. Your addresses and
-credentials will differ.
-
-- Host: Omarchy Linux, AMD Ryzen 7 7700X, 30 GiB RAM, KVM with nested virtualization.
-- EVE-NG VM: 8 vCPU, 16 GiB RAM, 60 GiB qcow2 disk, host-passthrough CPU.
-- EVE-NG CE 6.2.0-4 on Ubuntu 22.04, IP `192.168.122.40` on the libvirt default network.
-- EVE UI: HTTP on port 80. Change the default admin password after installation.
-- Images live under `/opt/unetlab/addons/` on the EVE VM.
-
-The 16 GiB VM is enough for both labs if you size nodes sensibly. See
-[docs/07-node-settings.md](docs/07-node-settings.md).
-
 ## Licensing and disclaimer
 
 Cisco IOS, Cisco IOL, and FortiGate VM images are proprietary. They are **not**
