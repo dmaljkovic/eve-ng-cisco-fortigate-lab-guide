@@ -152,27 +152,6 @@ routers, not switches; use L2 images for switchports.
   changes, regenerate or replace it. Without it, IOL nodes will not start.
 - **Do not commit it.** It is listed in `.gitignore`.
 
-## Removed and not installed
-
-These were removed because they are not needed for simple Cisco + one FortiGate
-labs:
-
-- FortiAnalyzer (FAZ) — logging/analytics appliance.
-- FortiManager (FMG) — central management appliance.
-- pfSense — not needed when the FortiGate is the firewall.
-- NSE5-FAZ and NSE5-FMG topology labs — large (40–71 GB RAM requested) and not
-  relevant to the simple labs.
-- c3640 — no matching EVE-NG template in CE 6.2.0-4.
-- Duplicate c7200 variants and extra IOL images — kept one mainline c7200 and a
-  representative set of IOL L2/L3 images.
-
-Not installed and not required:
-
-- IOSvL2 / vIOS-L2 — a dedicated virtual L2 switch image. IOL L2 covers the
-  switch labs in this guide.
-- Windows Server / Active Directory images — not needed.
-- `linux-2022.1` — not needed; Slax covers the PC role.
-
 ## File-name hints
 
 Cisco image names encode useful information:
