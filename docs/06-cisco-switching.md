@@ -1,9 +1,5 @@
 # Cisco switching options
 
-Short answer: **yes, you have Cisco switches** — the two IOL L2 images. The
-Dynamips c1710, c3725, and c7200 are routers, although the c3725 can take a
-16-port switch module.
-
 ## Summary
 
 | Option | What it is | Switchports? | Recommended use |

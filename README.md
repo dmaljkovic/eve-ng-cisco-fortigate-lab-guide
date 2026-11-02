@@ -101,7 +101,6 @@ See [docs/03-image-inventory.md](docs/03-image-inventory.md) for details.
 ```text
 .
 ├── README.md
-├── LICENSE
 ├── .gitignore
 ├── docs/
 │   ├── 00-glossary.md
@@ -127,6 +126,3 @@ Cisco IOS, Cisco IOL, and FortiGate VM images are proprietary. They are **not**
 included here and must not be redistributed. You are responsible for complying
 with the vendor licenses. The IOL `iourc` file is a hostname-bound license file:
 keep it private and do not commit it.
-
-The documentation and example configurations in this repository are provided
-under the MIT License. See [LICENSE](LICENSE).

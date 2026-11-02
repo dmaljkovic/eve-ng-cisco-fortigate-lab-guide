@@ -47,15 +47,6 @@ EVE-NG Community Edition is distributed under its own license. This repository
 does not include EVE-NG itself. Follow the EVE-NG license terms for your
 installation.
 
-## Documentation license
-
-The documentation and example configurations in this repository are provided
-under the MIT License. See [../LICENSE](../LICENSE).
-
-The MIT License applies only to the material authored for this guide. It does
-not grant any rights to Cisco, Fortinet, EVE-NG, Slax, or other third-party
-software.
-
 ## Security notes
 
 - The labs use telnet consoles inside EVE-NG. Do not expose EVE-NG or these
