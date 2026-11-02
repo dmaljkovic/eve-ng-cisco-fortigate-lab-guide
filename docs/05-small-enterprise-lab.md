@@ -346,20 +346,6 @@ Replace the static routes with OSPF if you want dynamic routing:
 The static setup is easier to troubleshoot; use OSPF only after the static lab
 works.
 
-## Optional — c7200 core
-
-Replace the c3725 core with a c7200:
-
-- Template `7206VXR`, image `c7200-adventerprisek9-mz.152-4.M11.image`, 512 MB+.
-- Add a `PA-FE-TX` or `PA-4E` port adapter.
-- Connect one port to the FortiGate and one to `SW1`; keep the `SW1`–`SW2`
-  daisy-chain.
-- Interface names depend on the slots; check `show ip interface brief`.
-- Use the same addressing, subinterfaces, DHCP pools, and default route.
-
-The c7200 is useful if you want to practice BGP, MPLS, or a larger number of
-routed interfaces. For this small-enterprise lab, the c3725 is enough.
-
 ## Optional — c1710 branch
 
 Add a c1710 as a small branch behind the core:
