@@ -1,6 +1,6 @@
 # EVE-NG Cisco + FortiGate Lab Guide
 
-Private guide for building simple **SOHO** and **small-enterprise** networks in
+Guide for building simple **SOHO** and **small-enterprise** networks in
 EVE-NG CE using Cisco IOS/IOL routers and switches plus one FortiGate firewall.
 
 > This repository contains **documentation and configuration examples only**.

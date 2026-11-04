@@ -300,4 +300,4 @@ top
 - System logs: `journalctl -xe`
 
 Do not paste full logs containing passwords, license keys, or public IPs into a
-public issue. This repository is private; still avoid committing secrets.
+public issue. Avoid committing secrets.
